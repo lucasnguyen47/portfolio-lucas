@@ -1,0 +1,229 @@
+[00:00:00.430] Server  LOG      ✓ Ready in 280ms
+[00:00:04.670] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.793] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="onest_5ec60dc9-module__It3Hda__variable font-sans antialiased overflow-x-hidden"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:00:04.793] Browser WARN    Image with src "http://localhost:3000/images/design-mode/63407fbdc2d4ac5270385fd4_home-he.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:14.293] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:14.443] Browser WARN    Image with src "http://localhost:3000/images/design-mode/63407fbdc2d4ac5270385fd4_home-he.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:12.648] Browser WARN    Image with src "http://localhost:3000/images/studio-logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:14.832] Browser WARN    Image with src "http://localhost:3000/images/venture-logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:12.682] Server  LOG      ✓ Compiled in 18ms
+[00:09:13.570] Server  LOG      ✓ Compiled in 15ms
+[00:09:14.437] Server  LOG      ✓ Compiled in 16ms
+[00:09:15.308] Server  LOG      ✓ Compiled in 16ms
+[00:09:58.960] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:59.117] Browser WARN    Image with src "/images/studio-workspace.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:09:59.117] Browser WARN    Image with src "http://localhost:3000/images/studio-logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:59.117] Browser WARN    Image with src "http://localhost:3000/images/venture-logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:59.117] Browser WARN    Image with src "http://localhost:3000/images/design-mode/63407fbdc2d4ac5270385fd4_home-he.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:46.795] Server  LOG      ✓ Compiled in 23ms
+[00:15:03.363] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:03.507] Browser WARN    Image with src "http://localhost:3000/images/studio-logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:03.507] Browser WARN    Image with src "http://localhost:3000/images/venture-logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:03.508] Browser WARN    Image with src "/images/about-me.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:15:03.508] Browser WARN    Image with src "http://localhost:3000/images/design-mode/63407fbdc2d4ac5270385fd4_home-he.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:20:28.296] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:28.437] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="vi">
+                          <body
+                            className="geist_mono_6bd85703-module__AKQocW__variable font-mono antialiased overflow-x-h..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:20:28.437] Browser WARN    Image with src "http://localhost:3000/images/design-mode/63407fbdc2d4ac5270385fd4_home-he.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:20:42.125] Server  ERROR    ⨯ ReferenceError: Geist_Mono is not defined
+[00:20:42.235] Server  ERROR    ⨯ ReferenceError: Geist_Mono is not defined
+[00:20:42.368] Server  ERROR    ⨯ ReferenceError: Geist_Mono is not defined
+[00:20:42.509] Server  ERROR    ⨯ ReferenceError: Geist_Mono is not defined
+[00:20:42.511] Browser WARN    Image with src "http://localhost:3000/images/studio-workspace.svg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:20:42.842] Server  ERROR    ⨯ ReferenceError: Geist_Mono is not defined
+[00:20:42.944] Server  ERROR    ⨯ ReferenceError: Geist_Mono is not defined
+[00:20:43.129] Browser ERROR   uncaughtError: ReferenceError: Geist_Mono is not defined
+[00:20:47.163] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:47.270] Browser WARN    Image with src "http://localhost:3000/images/design-mode/63407fbdc2d4ac5270385fd4_home-he.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:21:11.520] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:11.553] Server  LOG      ✓ Compiled in 0ms
+[00:21:11.635] Browser WARN    Image with src "http://localhost:3000/images/design-mode/63407fbdc2d4ac5270385fd4_home-he.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:21:11.635] Browser WARN    Image with src "/images/design-mode/63407fbdc2d4ac5270385fd4_home-he.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:23:43.197] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:43.332] Browser WARN    Image with src "http://localhost:3000/images/design-mode/63407fbdc2d4ac5270385fd4_home-he.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:24:29.620] Browser WARN    Image with src "http://localhost:3000/images/studio-logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:24:32.937] Browser WARN    Image with src "http://localhost:3000/images/venture-logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:39:10.555] Server  LOG      ✓ Compiled in 61ms
+[00:39:20.604] Browser ERROR   ./components/hero-section.tsx:63:1
+Parsing ecmascript source code failed
+  61 |     </section>
+  62 |   );
+> 63 | }
+     | ^
+  64 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/hero-section.tsx
+    ./app/page.tsx
+[00:39:23.798] Browser ERROR   ./components/hero-section.tsx:66:1
+Parsing ecmascript source code failed
+  64 |     </section>
+  65 |   );
+> 66 | }
+     | ^
+  67 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/hero-section.tsx
+    ./app/page.tsx
+[00:39:27.926] Server  LOG      ✓ Compiled in 24ms
+[00:39:28.029] Browser ERROR   ./components/services-section.tsx:120:1
+Parsing ecmascript source code failed
+  118 |     </section>
+  119 |   );
+> 120 | }
+      | ^
+  121 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/services-section.tsx
+    ./app/page.tsx
+[00:39:29.750] Browser ERROR   ./components/services-section.tsx:123:1
+Parsing ecmascript source code failed
+  121 |     </section>
+  122 |   );
+> 123 | }
+      | ^
+  124 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/services-section.tsx
+    ./app/page.tsx
+[00:39:32.637] Browser ERROR   ./components/navigation.tsx:60:1
+Parsing ecmascript source code failed
+  58 |     </div>
+  59 |   );
+> 60 | }
+     | ^
+  61 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/navigation.tsx
+    ./app/page.tsx
+[00:39:34.965] Browser ERROR   ./components/navigation.tsx:63:1
+Parsing ecmascript source code failed
+  61 |     </div>
+  62 |   );
+> 63 | }
+     | ^
+  64 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/navigation.tsx
+    ./app/page.tsx
+[00:40:01.383] Server  LOG      ✓ Compiled in 33ms
+[00:40:04.321] Server  LOG      ✓ Compiled in 23ms
+[00:40:05.275] Server  LOG      ✓ Compiled in 20ms
+[00:40:05.943] Server  LOG      ✓ Compiled in 51ms
+[00:41:54.696] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:41:54.696] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:41:59.860] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:41:59.860] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:42:08.096] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:42:08.096] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:42:11.068] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:42:11.068] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:52:53.634] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:21.300] Browser WARN    Image with src "http://localhost:3000/images/studio-logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:25.171] Browser WARN    Image with src "http://localhost:3000/images/venture-logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:37.655] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[01:04:37.655] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[01:04:43.432] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[01:04:43.432] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[01:04:59.131] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[01:04:59.131] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[01:05:43.207] Server  LOG      ✓ Compiled in 36ms
+[01:05:45.756] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[01:05:45.756] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[01:05:49.567] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[01:05:49.567] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[01:06:00.105] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[01:06:00.105] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
